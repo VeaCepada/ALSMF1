@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="https://forms.gle/NVgJhZsfMpuSWjcM8" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			ALS News and Updates
+		</h2>
+		<p>EMPOWERING LIFELONG LEARNERS</p>
+		        <img src="img/up.png">
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>ALS ONGOING ENROLLMENT</h1>
+		<p>ALS provides a second chance for individuals who were unable to complete their formal education.</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Dicklum ES Community Learning Center:</h3>
+				<h3>Thursday & Friday:</h3>
+				<p>Basic Literacy Program </p>
+				<p>Elementary Level </p>
+				<p>Junior High School </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Tankulan Community Learning Center:</h3>
+				<p>Basic Literacy Program - Wednesday & Thursday</p>
+				<p>Elementary Level - Tuesday & Wednesday</p>
+				<p>Junior High School - Thursday & Friday</p>
+			</div>
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>San Miguel Community Learning Center:</h3>
+				<h3>Saturday & Sunday:</h3>
+				<p>Basic Literacy Program </p>
+				<p>Elementary Level </p>
+				<p>Junior High School </p>
+			</div>
+		</div>
+	</section>
+	<section id="features">
+		<h1>ALS INFORMATION</h1>
+			<img src="img/111.png" width="700" height="900">
+
+		</section>
+	<!-- Features section ends from here -->
+
+	<!-- Footer section starts from here -->
+<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<i class="fab fa-facebook"><a href="https://www.facebook.com/ALSManoloFortich">@ALSMF1</i>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<i class="fab fa-facebook"><a href="mailto:alscepada@gmail.com">@alscepada@gmail.com</i>	
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Tel #098-045-063</li>
+			<li>Phone #0935-844-2759</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<i class="fab fa-facebook"><a href="https://www.google.com/maps/place/Manolo+Fortich+Central+Elementary+School/@8.3681119,124.8617783,17z/data=!3m1!4b1!4m6!3m5!1s0x32ffbdf8cf91c3d3:0xe0342425968ac717!8m2!3d8.3681066!4d124.8643532!16s%2Fg%2F11b6x49crx?entry=ttu&g_ep=EgoyMDI1MDUyNy4wIKXMDSoASAFQAw%3D%3D">@ALS Manolo Map</i>
+		   <li><i class="fab fa-facebook"><a href="https://www.google.com/maps/place/Dicklum+Elementary+School/@8.3736313,124.8469113,17z/data=!3m1!4b1!4m6!3m5!1s0x32ffbe72cc50b43f:0x2dce9ceacb47cddf!8m2!3d8.373626!4d124.8494862!16s%2Fg%2F11bzvwrbbz?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">@ALS Dicklum Map</i>
+		</li> 
+		<li><i class="fab fa-facebook"><a href="https://www.google.com/maps/place/Lingion+Elementary+School/@8.4010596,124.8846822,17z/data=!3m1!4b1!4m6!3m5!1s0x32ffbf679fc102b3:0xcbf0eee2e9ee6863!8m2!3d8.4010543!4d124.8872571!16s%2Fg%2F11jp92mg9k?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">@ALS Lingion Map</li>
+
+
+		<div class="copyright">
+			<p>Copyright @ 2025 All rights reserved | This template is made by Namayca Vea C. Cepada</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
